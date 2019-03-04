@@ -43,7 +43,7 @@
 .main-element{
     width: 63%;
     height: auto;
-    margin-left:15px;  
+    margin-left:15px;
     display: flex;
 }
 .main-content{
@@ -56,7 +56,7 @@
     margin-top:20px;
 }
 .description-icon{
-    width: 200px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
     margin-top:10px;
