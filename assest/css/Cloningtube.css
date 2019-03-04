@@ -1,0 +1,34 @@
+.header-element{
+    width: 97%;
+    height: 40px;
+    margin-top:5px;
+    margin-left: 19px;
+    background-color: blue;
+}
+#youtube-logo{
+    height: 74px;
+    width: 59px;
+}
+#user-pic{
+    height: 50px;
+    width: 36px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.search-element{
+    height: 100%;
+    margin-top:10px;
+    width: 60%;
+
+}
+#search-box{
+    width: 55%;
+    height: 20%;
+}
+.nav-icon{
+    height: 100%;
+    width: 40px;
+    margin-top: 10px;
+}
