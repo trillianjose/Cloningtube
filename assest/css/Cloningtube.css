@@ -7,7 +7,9 @@
 }
 #youtube-logo{
     height: 74px;
-    width: 59px;
+    width: 72px;
+    margin: -18px;
+    margin-left: -15px;
 }
 #user-pic{
     height: 50px;
@@ -16,19 +18,30 @@
 .nav-content{
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 .search-element{
     height: 100%;
     margin-top:10px;
     width: 60%;
-
+    align-content: center;
+    margin-left: 118px;
+    transform: scale(1.2);
 }
 #search-box{
-    width: 55%;
-    height: 20%;
+    width: 75%;
+    height: 30%;
 }
 .nav-icon{
     height: 100%;
     width: 40px;
     margin-top: 10px;
+    transform: scale(1.3);
+    margin-left: 11px;
+}
+.main-content{
+  width: 70%;
+  height: auto;
+  margin-left: 19px;
+  margin-top: 10px;
 }
