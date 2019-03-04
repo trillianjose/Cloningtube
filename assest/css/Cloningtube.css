@@ -1,3 +1,5 @@
+*{
+}
 .header-element{
     width: 97%;
     height: 40px;
@@ -39,9 +41,58 @@
     transform: scale(1.3);
     margin-left: 11px;
 }
+.main-element{
+    width: 63%;
+    height: auto;
+    margin-left:15px;
+}
 .main-content{
-  width: 70%;
-  height: auto;
   margin-left: 19px;
   margin-top: 10px;
+}
+.video-description{
+    margin-top:20px;
+}
+.description-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.profile{
+    display: flex;
+}
+.profile-related{
+    display: flex;
+}
+.all-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.profile-content{
+    display:flex;
+}
+.portrait{
+    width: 70px;
+    height: 85px;
+
+}
+.profile-content-related{
+    margin: 10px 10px 10px 10px;
+}
+.profile-content-related-spaces{
+    margin-bottom:5px;
+}
+.gaming-profiles{
+    display: flex;
+    margin-left: 150px;
+}
+.profile-info{
+    position: relative;
+}
+.subscribe-button{
+    position: absolute;
+    margin-left: 630px;
+    margin-top:-31px;
 }
