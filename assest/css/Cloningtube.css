@@ -1,11 +1,10 @@
-*{
-}
 .header-element{
     width: 97%;
     height: 40px;
-    margin-top:5px;
     margin-left: 19px;
-    background-color: blue;
+    margin-bottom: 10px;
+    position: fixed;
+    background-color: white;
 }
 #youtube-logo{
     height: 74px;
@@ -14,13 +13,13 @@
     margin-left: -15px;
 }
 #user-pic{
-    height: 50px;
-    width: 36px;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
 }
 .nav-content{
     display: flex;
     justify-content: space-between;
-    position: fixed;
 }
 .search-element{
     height: 100%;
@@ -44,17 +43,20 @@
 .main-element{
     width: 63%;
     height: auto;
-    margin-left:15px;
+    margin-left:15px;  
     display: flex;
 }
 .main-content{
-  margin-left: 19px;
-  margin-top: 10px;
+  margin-top: 45px;
+}
+.complete-content{
+    margin-left: 4px;
 }
 .video-description{
     margin-top:20px;
 }
 .description-icon{
+    width: 200px;
     display: flex;
     justify-content: space-between;
     margin-top:10px;
@@ -93,9 +95,12 @@
     position: relative;
 }
 .subscribe-button{
+    height: 30px;
     position: absolute;
     margin-left: 630px;
     margin-top:-31px;
+    background-color: red;
+    color: white;
 }
 .coment-field{
   height: 30px;
@@ -107,6 +112,7 @@
 }
 .side-content{
   margin-left: 15px;
+  margin-top: 42px;
 }
 .sugested-videos{
   width: 180px;
@@ -118,4 +124,27 @@
 .video-text{
     margin-left: 15px;
     margin-top: 40px;
+}
+.suggested-info{
+    margin-top: 12px;
+}
+.reply{
+    flex-direction: column;
+}
+.reply-icon{
+    margin-top: 8px;
+}
+.video-suggested{
+    width: 335px;
+}
+.inside-space{
+    margin-top: 15px;
+}
+.video-icons{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.text-control{
+    font-weight: bold;
 }
