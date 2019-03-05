@@ -41,7 +41,7 @@
     margin-left: 11px;
 }
 .main-element{
-    width: 63%;
+    width: 100%;
     height: auto;
     margin-left:15px;
 }
@@ -54,8 +54,11 @@
 .video-description{
     margin-top:20px;
 }
+iframe{
+  border-width: 0px;
+}
 .description-icon{
-    width: 800px;
+    width: 1250px;
     margin-top:10px;
 }
 .profile{
@@ -86,7 +89,7 @@
 .subscribe-button{
     height: 30px;
     position: absolute;
-    margin-left: 630px;
+    margin-left: 1000px;
     margin-top:-31px;
     background-color: red;
     color: white;
