@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+  }
 .header-element{
     width: 97%;
     height: 40px;
@@ -50,6 +53,7 @@
 }
 .complete-content{
     margin-left: 4px;
+    overflow: inherit;
 }
 .video-description{
     margin-top:20px;
