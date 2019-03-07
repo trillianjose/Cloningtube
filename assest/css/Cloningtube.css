@@ -1,13 +1,15 @@
-body {
-    overflow-x: hidden;
-  }
 .header-element{
     width: 97%;
     height: 40px;
     margin-left: 19px;
     margin-bottom: 10px;
-    position: fixed;
     background-color: white;
+}
+.header-top{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
 }
 .youtube-logo{
     height: 74px;
@@ -52,21 +54,22 @@ body {
     margin-top: 45px;
 }
 .complete-content{
-    margin-left: 4px;
-    overflow: inherit;
+    width: 65%;
 }
 .video-description{
     margin-top:20px;
 }
 iframe{
   border-width: 0px;
+  width: 100%;
 }
 .description-icon{
-    width: 1250px;
+    width: 100%;
     margin-top:10px;
 }
 .profile{
     display: flex;
+    width: 100%;
 }
 .all-pic{
     height: 50px;
@@ -93,7 +96,7 @@ iframe{
 .subscribe-button{
     height: 30px;
     position: absolute;
-    margin-left: 1000px;
+    margin-left: 840px;
     margin-top:-31px;
     background-color: red;
     color: white;
@@ -114,6 +117,7 @@ iframe{
 .side-content{
   margin-left: 15px;
   margin-top: 42px;
+  width: 28%;
 }
 .sugested-videos{
   width: 180px;
