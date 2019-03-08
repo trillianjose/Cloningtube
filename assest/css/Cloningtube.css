@@ -1,0 +1,154 @@
+.header-element{
+    width: 97%;
+    height: 40px;
+    margin-left: 19px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.header-top{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+.youtube-logo{
+    height: 74px;
+    width: 72px;
+    margin: -18px;
+    margin-left: -15px;
+}
+.user-pic{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.search-element{
+    height: 100%;
+    margin-top:10px;
+    width: 60%;
+    align-content: center;
+    margin-left: 118px;
+    transform: scale(1.2);
+}
+.search-box{
+    width: 75%;
+    height: 30%;
+}
+.nav-icon{
+    height: 100%;
+    width: 40px;
+    margin-top: 10px;
+    transform: scale(1.3);
+    margin-left: 11px;
+}
+.main-element{
+    display: flex;
+    width: 97%;
+    height: auto;
+    margin-left:15px;
+}
+.main-content{
+    margin-top: 45px;
+}
+.complete-content{
+    width: 65%;
+}
+.video-description{
+    margin-top:20px;
+}
+iframe{
+  border-width: 0px;
+  width: 100%;
+}
+.description-icon{
+    width: 100%;
+    margin-top:10px;
+}
+.profile{
+    display: flex;
+    width: 100%;
+}
+.all-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.portrait{
+    width: 70px;
+    height: 85px;
+}
+.profile-content-related{
+    margin: 10px 10px 10px 10px;
+}
+.profile-content-related-spaces{
+    margin-bottom:5px;
+}
+.gaming-profiles{
+    margin-left: 150px;
+}
+.profile-info{
+    position: relative;
+}
+.subscribe-button{
+    height: 30px;
+    position: absolute;
+    margin-left: 655px;
+    margin-top:-31px;
+    background-color: red;
+    color: white;
+}
+.coment-field :focus{
+  outline: none;
+  background: transparent;
+}
+.coment-field-deco{
+    margin-top: 10px;
+    height: 25px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.side-content{
+  margin-left: 15px;
+  margin-top: 42px;
+  width: 28%;
+}
+.sugested-videos{
+  width: 180px;
+  height: 120px;
+}
+.next-tab{
+  margin-left: 40px;
+}
+.video-text{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.suggested-info{
+    margin-top: 12px;
+}
+.reply{
+    flex-direction: column;
+}
+.reply-icon{
+    margin-top: 8px;
+}
+.video-suggested{
+    width: 335px;
+}
+.inside-space{
+    margin-top: 15px;
+}
+.video-icons{
+    width: 300px;
+}
+.text-control{
+    font-weight: bold;
+}
