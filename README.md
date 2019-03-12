@@ -16,4 +16,4 @@
 ---
 # Live Demo
 
-Click [here](https://raw.githack.com/trillianjose/Cloningtube/Development/Cloningtube.html) to see the latest updates 
+Click [here](https://trillianjose.github.io/Cloningtube/) to see the latest updates 
